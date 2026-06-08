@@ -1,0 +1,65 @@
+Potato_Disease_XAI/
+│
+├── dataset/
+│   ├── train/
+│   │   ├── healthy/
+│   │   ├── early_blight/
+│   │   └── late_blight/
+│   │
+│   ├── val/
+│   │   ├── healthy/
+│   │   ├── early_blight/
+│   │   └── late_blight/
+│   │
+│   └── test/
+│       ├── healthy/
+│       ├── early_blight/
+│       └── late_blight/
+│
+├── notebooks/
+│   ├── data_analysis.ipynb
+│   ├── model_training.ipynb
+│   ├── lime_experiments.ipynb
+│   └── shap_experiments.ipynb
+│
+├── models/
+│   ├── efficientnet_model.h5
+│   └── label_encoder.pkl
+│
+├── outputs/
+│   ├── graphs/
+│   │   ├── accuracy.png
+│   │   ├── loss.png
+│   │   └── confusion_matrix.png
+│   │
+│   ├── predictions/
+│   │   └── sample_predictions/
+│   │
+│   ├── lime/
+│   │   └── lime_outputs/
+│   │
+│   └── shap/
+│       └── shap_outputs/
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   ├── lime_explain.py
+│   ├── shap_explain.py
+│   └── utils.py
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── reports/
+│   ├── project_report.docx
+│   ├── presentation.pptx
+│   └── screenshots/
+│
+├── requirements.txt
+├── README.md
+└── main.py
+
+
