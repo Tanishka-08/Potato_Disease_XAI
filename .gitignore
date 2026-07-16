@@ -1,24 +1,40 @@
+# ===========================
 # Python
+# ===========================
 __pycache__/
 *.pyc
 *.pyo
 
+# ===========================
 # Virtual Environment
+# ===========================
 venv/
 .env
 
-# Jupyter
+# ===========================
+# Jupyter Notebook
+# ===========================
 .ipynb_checkpoints/
 
-# Model Files (if very large)
+# ===========================
+# Large Model Files
+# Ignore all model files EXCEPT
+# the trained EfficientNet model
+# ===========================
 *.h5
+!models/efficientnet_model.h5
+
 *.keras
 *.pt
 *.pth
 
+# ===========================
 # VS Code
+# ===========================
 .vscode/
 
-# OS files
+# ===========================
+# Operating System Files
+# ===========================
 .DS_Store
 Thumbs.db
