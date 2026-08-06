@@ -93,5 +93,5 @@ Classes:
 
 ## Author
 
-Tanishka Pangavhane
+Tanishka Pangavhane |
 CSE
